@@ -1,9 +1,10 @@
 #pragma once
-#include "User.h"
+#include "user.h"
 #include <iostream>
 
 
 /**
+Milestone 2:
 Inheritance models an is-a relationship between classes. It involves a hierarchy where there is a base class with one
 or more derived classes(and even those classes could become base classes). Objects created by derived classes can
 acquire the attributes and behaviors from its base class. Inheritance allows us to avoid redefining the information
@@ -24,33 +25,27 @@ Private visibility mode means all public and protected members of the base class
 
 */
 
-class Employee : public User
+class Customer : public User
 {
     private:
         // fields
-        int id_employee;
-        std::string job_position;
-        int yearly_salary;
+        int id_number;
+        // checking account
+        // saving account
+
 
     public:
         // constructrs:
         // default constructor
-        Employee();
+        Customer();
         // properties constructor
-        Employee(int id, std::string position, int wage);
+        Customer(int id);
 
         // getters
-        int get_id_employee();
-        std::string get_job_position();
-        int get_yearly_salary();
+        int get_id_number();
 
         // setters
         void set_id_employee(int id);
-        void set_job_position(std::string position);
-        void set_yearly_salary(int salary);
 
         void show_details();
 };
-
-
-

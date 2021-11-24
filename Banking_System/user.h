@@ -2,12 +2,14 @@
 #include<iostream>
 
 /**
+Milestone 1:
+
 Functional vs Object-Oriented Approach:
 
 Functional programming is typically easier to write. It can be useful for simple/small applications
 but it can get messy with big application. It involves writing functions for each
 operation the program does that provides a case of each data variant. Functinal programming may lead to the repetition
-of code more often and the data is often unsecure. The real world in functional programming.
+of code more often and the data is often unsecure.
 
 Object-oriented programming is centered around classes and objects. The main parts of the object-oriented
 paradigm are encapulation, inheritance, and polymorphism. A class is created as a blueprint to which we
@@ -40,4 +42,3 @@ class User
         void set_email(std::string person_email);
         void set_password(std::string person_password);
 };
-
