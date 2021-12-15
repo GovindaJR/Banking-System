@@ -1,10 +1,14 @@
 #pragma once
 #include "user.h"
 #include <iostream>
+#include"savingsaccount.h"
+#include"checkingaccount.h"
+#include <QString>
+#include <QMetaType>
 
 
 /**
-Milestone 2:
+Milestone 2 (LO2a):
 Inheritance models an is-a relationship between classes. It involves a hierarchy where there is a base class with one
 or more derived classes(and even those classes could become base classes). Objects created by derived classes can
 acquire the attributes and behaviors from its base class. Inheritance allows us to avoid redefining the information
@@ -25,27 +29,38 @@ Private visibility mode means all public and protected members of the base class
 
 */
 
+// LO2 & LO1a
+
 class Customer : public User
 {
-    private:
-        // fields
-        int id_number;
-        // checking account
-        // saving account
+private:
+    // fields
+    int id_number;
 
 
-    public:
-        // constructrs:
-        // default constructor
-        Customer();
-        // properties constructor
-        Customer(int id);
+public:
+    SavingsAccount savings_account;
+    CheckingAccount checking_account;
+    // constructers:
+    // default constructor
+    Customer();
+    // properties constructor
 
-        // getters
-        int get_id_number();
+    // LO1b
+    Customer(int id);
+    Customer(std::string  name, std::string email, std::string password, double savings_account_bal,
+        double checking_account_bal, double interest_rate);
 
-        // setters
-        void set_id_employee(int id);
+    Customer(std::string name, std::string email, std::string password);
+    Customer(std::string email,std::string password );
 
-        void show_details();
+    // getters
+    int get_id_number();
+
+    // setters
+    void set_id_number(int id);
+
+    void show_details();
 };
+
+

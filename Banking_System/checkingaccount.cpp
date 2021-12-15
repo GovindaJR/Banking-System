@@ -1,11 +1,17 @@
 #include "checkingaccount.h"
 
-void CheckingAccount:: withdraw(long double amount) {
-    long int new_balance = this->get_balance() - amount;
+// default constructor
+CheckingAccount::CheckingAccount() {
+    set_balance(0);
+}
+
+// methods
+void CheckingAccount:: withdraw(double amount) {
+    double new_balance = this->get_balance() - amount;
     this->set_balance(new_balance);
 }
 
-void CheckingAccount:: deposit(long double amount) {
-    long int new_balance = this->get_balance() + amount;
+void CheckingAccount:: deposit(double amount) {
+    double new_balance = this->get_balance() + amount;
     this->set_balance(new_balance);
 }

@@ -1,10 +1,11 @@
 #pragma once
 #include<iostream>
+#include<QString>
 
 /**
 Milestone 1:
 
-Functional vs Object-Oriented Approach:
+Functional vs Object-Oriented Approach(LO4):
 
 Functional programming is typically easier to write. It can be useful for simple/small applications
 but it can get messy with big application. It involves writing functions for each
@@ -20,7 +21,7 @@ or method. It makes code more reuseable and can make data more secure.
 
 */
 
-
+// (LO1)
 
 // Parent class
 class User
@@ -33,6 +34,8 @@ class User
 
     public:
         // getters
+        User();
+        User(std::string e, std::string p);
         std::string get_name();
         std::string get_email();
         std::string get_password();

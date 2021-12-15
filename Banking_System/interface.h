@@ -19,7 +19,7 @@ public:
 };
 
 /**
-Milestone 3:
+Milestone 3 (LO3):
 Dynamic dispatch is the process of selecting which implementation of a polymorphic method to call at run time.
 To get dynamic dispatch one must declare a method as virtual using the "virtual" keyword. It tells the
 program to go look and see if there are any more-derived versions of the function available, and runs

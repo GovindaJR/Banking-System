@@ -11,25 +11,132 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Log In</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(254, 255, 253);</string>
+   <string notr="true">background-color:#484848;
+color:white;</string>
   </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>270</x>
-     <y>-10</y>
-     <width>211</width>
+     <x>0</x>
+     <y>0</y>
+     <width>801</width>
      <height>101</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 75 36pt &quot;Verdana&quot;;</string>
+    <string notr="true">font: 75 36pt &quot;Verdana&quot;;
+background-color:  #6666ff;</string>
    </property>
    <property name="text">
     <string>Log In</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>170</y>
+     <width>61</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;
+font: 18pt;</string>
+   </property>
+   <property name="text">
+    <string>Email</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>240</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;
+font: 18pt;</string>
+   </property>
+   <property name="text">
+    <string>Password</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="email_form">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>180</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="password_form">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>240</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="login_button">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>310</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> QPushButton#login_button {
+     background-color: #8080ff;
+	font: 14pt &quot;Tahoma&quot;;
+	color: white;
+    border-style: outset;
+    border-width: 2px;
+    border-color: black;
+ }
+ QPushButton#login_button:pressed {
+     background-color: rgb(0, 0, 0);     
+ }
+ QPushButton#login_button:hover {
+     background-color:#6633CC;
+ }
+
+</string>
+   </property>
+   <property name="text">
+    <string>Log In</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>380</y>
+     <width>191</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:black;
+background-color: #d3d3d3;</string>
+   </property>
+   <property name="text">
+    <string>Don't have an account yet? Register</string>
    </property>
   </widget>
  </widget>

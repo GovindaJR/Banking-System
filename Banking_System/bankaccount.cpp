@@ -1,4 +1,5 @@
 #include "bankaccount.h"
+#include<cmath>
 
 // default constructor
 BankAccount::BankAccount()
@@ -7,7 +8,9 @@ BankAccount::BankAccount()
 }
 
 // getter
-long double BankAccount::get_balance(){return balance;}
+double BankAccount::get_balance(){
+    return balance;
+}
 
 // setter
-void BankAccount::set_balance(long double balance) {this->balance=balance;}
+void BankAccount::set_balance(double balance) {this->balance=balance;}

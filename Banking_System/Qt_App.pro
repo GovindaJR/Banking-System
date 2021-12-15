@@ -1,4 +1,4 @@
-QT       += core gui
+QT       += core gui sql
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -11,32 +11,42 @@ CONFIG += c++11
 SOURCES += \
     bankaccount.cpp \
     checkingaccount.cpp \
+    checkingmenu.cpp \
     customer.cpp \
     customermenu.cpp \
+    database.cpp \
     interface.cpp \
     iterators.cpp \
     loginform.cpp \
     main.cpp \
     mainwindow.cpp \
     registerform.cpp \
+    savingsaccount.cpp \
+    savingsmenu.cpp \
     user.cpp
 
 HEADERS += \
     bankaccount.h \
     checkingaccount.h \
+    checkingmenu.h \
     customer.h \
     customermenu.h \
+    database.h \
     interface.h \
     loginform.h \
     mainwindow.h \
     registerform.h \
+    savingsaccount.h \
+    savingsmenu.h \
     user.h
 
 FORMS += \
+    checkingmenu.ui \
     customermenu.ui \
     loginform.ui \
     mainwindow.ui \
-    registerform.ui
+    registerform.ui \
+    savingsmenu.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
