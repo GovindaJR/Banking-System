@@ -44,6 +44,12 @@ Results:
 <img src='screenshots/clang-tidy_and_clazy_results2.PNG' width='' alt='Video Walkthrough'/>
 
 
+# Getting Started
+First, download QT Creator: https://www.qt.io/download-qt-installer?hsCtaTracking=99d9dd4f-5681-48d2-b096-470725510d34%7C074ddad0-fdef-4e53-8aa8-5e8a876d6ab4
+
+On this github page, press the green "Code" button. Click "Download ZIP". When the file is downloaded, extract the file, and open that folder with QT Creator.
+
+Alternatively, you can download QT Creator, and then git clone the repo and open with QT Creator.
 
 
 # Built with
