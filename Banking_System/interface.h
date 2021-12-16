@@ -5,7 +5,7 @@
 // This file only exists to demonstrate OOP Concepts for COP 3003 and does not affect the Banking System Program!
 
 /**
-Milestone 5 (LO5):
+Milestone 5 (LO6):
 An interface class is a class that has all pure virtual functions. Below is an implementation of an interface class.
 Underneath the Interface class is a Derived class that has private members of that class.
 */
