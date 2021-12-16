@@ -21,14 +21,41 @@ The following concepts are implemented in this project:
 * [x] Define and use iterators and other operations on aggregates, including operations that take functions as arguments. 
 
    - See "iterators.cpp"
-* [ ] Follow best practices for style and readability.
-* [ ] Follow best practices for documentation.
+* [x] Follow best practices for style and readability.
+* [x] Follow best practices for documentation.
 
 
-# Work-in-Progress Demo
-<img src='WIPdemo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+# Project Demo
+<img src='screenshots/demo.gif'  width='' alt='Video Walkthrough' />
+
+# Class Diagram 
+<img src='screenshots/classdiagram.PNG'  width='' alt='Video Walkthrough' />
+
+# Style/Structure
+Used Qt Creator's Clang-Tidy and Clazy code analyzer:
+
+
+<img src='screenshots/clang-tidy_and_clazy.PNG' width='' alt='Video Walkthrough'/>
+
+Results:
+
+
+<img src='screenshots/clang-tidy_and_clazy_results.PNG'  width='' alt='Video Walkthrough'/>
+<img src='screenshots/clang-tidy_and_clazy_results2.PNG' width='' alt='Video Walkthrough'/>
+
+
+
 
 # Built with
 - C++ 
 - QT
 - QT-Creator IDE (version 5.0.2 community)
+
+# Resources
+Udemy Course: QT C++ GUI Tutorial For Beginners by Yogesh Patel: https://www.udemy.com/course/qt-c-gui-tutorial-for-beginners/
+
+
+Beginner SQLite Tutorials by ProgrammingKnowledge: https://www.youtube.com/watch?v=U7nfe4adDw8&list=PLS1QulWo1RIa0-Cs2Qx6GFyiIVVVS9lCS
+
+DB Browser (SQLite) - open source tool to create, design, and edit database files compatible with SQLite: https://sqlitebrowser.org/
+
