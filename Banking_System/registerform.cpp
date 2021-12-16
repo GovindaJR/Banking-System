@@ -68,7 +68,7 @@ void RegisterForm::on_register_button_clicked()
 
 
         // closes current window and opens the customer main menu window
-        QMessageBox::information(this, "Registration Sucessful", "You have successfully created an account!");
+        QMessageBox::information(this, "Registration Successful", "You have successfully created an account!");
         this->close();
 
         // customer object is passed to the new window

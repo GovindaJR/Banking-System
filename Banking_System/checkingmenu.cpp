@@ -53,7 +53,7 @@ void CheckingMenu::on_deposit_button_clicked()
 
     db.close();
 
-    QMessageBox::information(this, "Successful Deposit", "You have sucessfully deposited $" +
+    QMessageBox::information(this, "Successful Deposit", "You have successfully deposited $" +
                              QString::number(entered_value) + " into your Checking Account!");
 
 
@@ -101,7 +101,7 @@ void CheckingMenu::on_withdraw_button_clicked()
 
     //db.close();
 
-    QMessageBox::information(this, "Successful Withdrawl", "You have sucessfully withdrawn $" +
+    QMessageBox::information(this, "Successful Withdrawl", "You have successfully withdrawn $" +
                              QString::number(entered_value) + " from your Checking Account!");
 
     close();

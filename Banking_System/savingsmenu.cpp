@@ -56,7 +56,7 @@ void SavingsMenu::on_deposit_button_clicked()
         qDebug() << "Could not find user";
     }
 
-    QMessageBox::information(this, "Successful Deposit", "You have sucessfully deposited $" +
+    QMessageBox::information(this, "Successful Deposit", "You have successfully deposited $" +
                              QString::number(entered_value) + " into your Savings Account!");
 
     // closes window and returns to customer menu.
@@ -92,7 +92,7 @@ void SavingsMenu::on_withdraw_button_clicked()
     }
 
 
-    QMessageBox::information(this, "Successful Withdrawl", "You have sucessfully withdrawn $" +
+    QMessageBox::information(this, "Successful Withdrawl", "You have successfully withdrawn $" +
                              QString::number(entered_value) + " from your Savings Account!");
 
     // closes window and returns to customer menu.

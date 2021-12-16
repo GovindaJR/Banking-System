@@ -65,7 +65,7 @@ void CustomerMenu::on_savings_account_button_clicked()
 // on click method that logs the user out
 void CustomerMenu::on_logout_button_clicked()
 {
-    QMessageBox::information(this, "Successful Logout", "You have sucessfully logged out.");
+    QMessageBox::information(this, "Successful Logout", "You have successfully logged out.");
     close();
     LoginForm login;
     login.setModal(true);
