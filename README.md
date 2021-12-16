@@ -26,10 +26,10 @@ The following concepts are implemented in this project:
 
 
 # Project Demo
-<img src='screeshots/demo.gif'  width='' alt='Video Walkthrough' />
+<img src='screenshots/demo.gif'  width='' alt='Video Walkthrough' />
 
 # Class Diagram 
-<img src='screeshots/classdiagram.PNG'  width='' alt='Video Walkthrough' />
+<img src='screenshots/classdiagram.PNG'  width='' alt='Video Walkthrough' />
 
 # Style/Structure
 Used Qt Creator's Clang-Tidy and Clazy code analyzer:
@@ -38,7 +38,6 @@ Used Qt Creator's Clang-Tidy and Clazy code analyzer:
 <img src='screenshots/clang-tidy_and_clazy.PNG' width='' alt='Video Walkthrough'/>
 
 Results:
-
 
 
 <img src='screenshots/clang-tidy_and_clazy_results.PNG'  width='' alt='Video Walkthrough'/>
