@@ -53,6 +53,8 @@ Results:
 
 # Resources
 Udemy Course: QT C++ GUI Tutorial For Beginners by Yogesh Patel: https://www.udemy.com/course/qt-c-gui-tutorial-for-beginners/
+
+
 Beginner SQLite Tutorials by ProgrammingKnowledge: https://www.youtube.com/watch?v=U7nfe4adDw8&list=PLS1QulWo1RIa0-Cs2Qx6GFyiIVVVS9lCS
 
 DB Browser (SQLite) - open source tool to create, design, and edit database files compatible with SQLite: https://sqlitebrowser.org/
