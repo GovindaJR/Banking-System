@@ -22,11 +22,9 @@ SavingsMenu::SavingsMenu(Customer customer, QWidget *parent) :
     db.load_user(customer);
     this->customer = customer;
 
-    qDebug() << "Interest Rate is: " + QString::number(customer.savings_account.get_interest_rate());
-
     // loads current balance on screen during window setup; The balance is displayed with two decimals places.
     ui->balance_label->setText("Balance: $" + QString::number(customer.savings_account.get_balance(), 'f', 2));
-    ui->interest_rate_label->setText("Interest Rate: " + QString::number(customer.savings_account.get_interest_rate(), 'f', 3) + "%");
+    ui->interest_rate_label->setText(QString::number(customer.savings_account.get_interest_rate(), 'f', 3));
 
 }
 
