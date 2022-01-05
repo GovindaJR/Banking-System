@@ -1,5 +1,5 @@
 # Banking System
-A GUI Application built with the QT framework that implements OOP concepts learning in Programming II and a SQLite database. Displayes a UI that allows users to register/login to an account and manage their checking and savings account. User data is saved to an SQLite Database.
+A GUI Application built with the QT framework that implements OOP concepts learning in Programming II and a SQLite database. Displays a UI that allows users to register/login to an account and manage their checking and savings account. User data is saved to an SQLite Database.
 
 # OOP Concepts
 The following concepts are implemented in this project:
